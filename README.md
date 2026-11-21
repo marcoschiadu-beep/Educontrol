@@ -24,10 +24,64 @@ Aplicación web para administrar estudiantes, asignaturas y calificaciones media
 - Persistencia mediante localStorage.
 - Diseño adaptable.
 
-## Prompts utilizados
-1. **Planificación y arquitectura:** se solicitó definir la estructura, entidades, relaciones y etapas del proyecto sin generar todavía todo el código.
-2. **Generación de la aplicación:** se solicitó construir EduControl con HTML, CSS y JavaScript puro, operaciones CRUD, localStorage, validaciones, datos de demostración y diseño responsive.
-3. **Pruebas y refactorización (pendiente de documentar):** registrar los errores encontrados durante las pruebas y las mejoras solicitadas a la IA.
+
+## Prompts utilizados durante el desarrollo
+
+Para desarrollar EduControl se utilizó ChatGPT como herramienta de apoyo durante la planificación y programación de la aplicación.
+
+### Prompt 1. Planificación y arquitectura
+
+**Objetivo:** Definir la estructura, funcionalidades y tecnologías del proyecto.
+
+**Prompt utilizado:**
+
+Actúa como un ingeniero de software senior especializado en desarrollo web.
+
+Quiero desarrollar una aplicación web llamada EduControl, un Sistema de Gestión Académica con un diseño minimalista, moderno y profesional.
+
+El objetivo es administrar estudiantes, asignaturas y calificaciones mediante operaciones CRUD.
+
+Define la arquitectura del proyecto, la responsabilidad de cada archivo, las entidades y sus atributos, las relaciones entre ellas y un plan de desarrollo por etapas.
+
+No generes todavía todo el código. Quiero desarrollar el proyecto progresivamente y comprender cada parte.
+
+**Resultado:** Se definió la planificación inicial y la estructura del proyecto.
+
+### Prompt 2. Desarrollo de la aplicación
+
+**Objetivo:** Generar el código fuente de la aplicación.
+
+**Prompt utilizado:**
+
+Actúa como un desarrollador web senior. Necesito crear una aplicación web funcional llamada EduControl, un Sistema de Gestión Académica.
+
+Utiliza únicamente HTML5, CSS3 y JavaScript puro, sin frameworks ni dependencias externas.
+
+Quiero una aplicación minimalista, moderna y profesional, con fondo blanco, detalles azules, tarjetas estadísticas, menú lateral y tablas organizadas.
+
+Implementa un Dashboard, CRUD completo de estudiantes, asignaturas y calificaciones, búsqueda de estudiantes, almacenamiento mediante localStorage, confirmaciones antes de eliminar, validación de formularios y diseño responsive.
+
+Separa el código en index.html, styles.css y app.js. Utiliza funciones organizadas, nombres descriptivos, comentarios y registros de demostración únicamente cuando el almacenamiento esté vacío.
+
+Entrega el código completo de cada archivo, sin pseudocódigo, y explica cómo ejecutar y probar la aplicación en Visual Studio Code.
+
+**Resultado:** Se generó la aplicación web funcional con sus módulos académicos y operaciones CRUD.
+
+### Prompt 3. Verificación del funcionamiento
+
+**Objetivo:** Comprobar que las funcionalidades desarrolladas trabajaran correctamente.
+
+**Actividades realizadas:**
+
+- Ejecutar la aplicación en el navegador.
+- Registrar y consultar estudiantes.
+- Buscar y editar registros.
+- Eliminar registros con confirmación.
+- Registrar asignaturas y calificaciones.
+- Comprobar la persistencia de los datos utilizando localStorage.
+
+**Resultado:** Se comprobó el funcionamiento de los módulos principales antes de publicar el proyecto en GitHub.
+
 
 ## Capturas
 <img width="1917" height="875" alt="Captura de pantalla 2026-11-20 210751" src="https://github.com/user-attachments/assets/16af1d88-6ea0-411d-89d6-5eb287db425b" />
